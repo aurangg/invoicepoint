@@ -408,6 +408,10 @@ label{
   display: flex;
   align-items: center;
 }
+.flex-justify-center{
+  display: flex;
+  justify-content: center;
+}
 .flex-align-start{
   display:flex;
   align-items: flex-start;
@@ -488,6 +492,16 @@ label{
     background-image: url('/images/menu-bg.PNG');
 } */
 
+.test-para{
+  color: whitesmoke !important;
+}
+.testImg{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 .home-banner{
     background-position: center;
     background-repeat: no-repeat;
@@ -517,6 +531,9 @@ label{
     background-repeat: no-repeat;
     background-size: cover;
     background-image:url('./tryinvoice-bg.png');
+}
+.try-button{
+  margin-left: 40px;
 }
 /* .second-btn{
    margin-left: ;
@@ -557,13 +574,17 @@ label{
       flex-direction: row-reverse ;
   }
   .Testimonial{
-      height: 789px;
+      height: auto;
+      width: 100%;
     background-color: #F7F8FE;
   }
 
   .test{
       background-color: #343B51;
       height: 395px;
+  }
+  .second-tick{
+    margin-left: 30px;
   }
   
   
@@ -609,12 +630,9 @@ label{
     color:white;
   }
   .freeTrial{
-      height: 538px;
       background-color: #F7F8FE;
   }
-  .freeimg{
-      padding-bottom: 0px;
-  }
+  
 
 .ticks-size{
   width:auto;
@@ -730,6 +748,9 @@ label{
     display: flex;
     justify-content: flex-start;
   }
+  .display-flex{
+    display:block !important;
+  }
   .end-footer .footer-ul{
     padding-left:0px !important;
     margin-top:30px;
@@ -787,14 +808,14 @@ label{
   .p-adjustment{
     font-size:12px !important;
   }
-  .freeTrial{
+  /* .freeTrial{
     height: 575px;
-  }
+  } */
   .first-tick{
     height: 20px;
   }
   .second-tick{
-    padding-left: 10px;
+    padding-left: 10 px;
     height: 20px;
   }
   .Testimonial{
@@ -804,6 +825,7 @@ label{
   .second-feature{
     padding-left: 10px;
   }
+ 
 
   .l-btn{
     outline:none;
@@ -818,10 +840,15 @@ label{
     border: 2px solid #8B7DD5;
   }
 
+
+  .free{
+    
+    padding-top: 50px;    
+  }
   .freeimg{
     width:100%;
     height:auto;
-    padding-top: 20px;
+    
   }
   .feature-img{
     height: auto;

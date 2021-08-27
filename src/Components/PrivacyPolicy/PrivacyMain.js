@@ -17,10 +17,14 @@ import Question20 from './Questions/q20';
 import Question21 from './Questions/q21';
 import Question22 from './Questions/q22';
 import Contact from './Questions/contact';
+import { Fragment } from 'react';
+import Footer from '../Footer/Footer';
 
 function PrivacyMain(){
+    console.log("inside")
     return(
-        <section className="sp-90">
+        <Fragment>
+            <section className="sp-90">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3">
@@ -62,6 +66,8 @@ function PrivacyMain(){
                 </div>
             </div>
         </section>
+        <Footer />
+        </Fragment>
     )
 }
 export default PrivacyMain;

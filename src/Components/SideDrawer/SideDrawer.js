@@ -9,6 +9,7 @@ const sideDrawer = props => {
         drawerClasses = ['side-drawer open']
     }
     // console.log(props)
+
     return(
         <nav className={drawerClasses} onClick={props.drawerClickHandler}>
             <ul>
@@ -26,7 +27,7 @@ const sideDrawer = props => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/business">
+                    <Link to="/small-business">
                         Small Business
                     </Link>
                 </li>
@@ -36,7 +37,7 @@ const sideDrawer = props => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/privacypolicy">
+                    <Link to="/privacy-policy">
                         Privacy Policy
                     </Link>
                 </li>
@@ -46,7 +47,12 @@ const sideDrawer = props => {
                     </Link>
                 </li>
                 <li>
-                    <Link to="/termsofservice">
+                    <Link to="/pricing">
+                        Pricing
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/terms-of-service">
                         Terms & Conditions
                     </Link>
                 </li>

@@ -16,11 +16,11 @@ export default function TryInvoice(){
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4"></div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3"></div>
+                    <div className="col-lg-6 flex-justify-center display-flex">
                         <Buttons/>
                     </div>
-                    <div className="col-lg-4"></div>
+                    <div className="col-lg-3"></div>
                 </div>
             </div>
         </section>

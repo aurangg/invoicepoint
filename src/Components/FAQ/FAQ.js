@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import FAQ1 from './f1';
 import FAQ2 from './f2';
 import FAQ3 from './f3';
@@ -20,11 +21,12 @@ export default function FAQ(){
                             <FAQ2 />
                             <FAQ3 />
                             <FAQ4 />
-                            <FAQ5 />
+                            <FAQ5 />                     
                         </div>
-                    </div>
+                    </div>             
                 </div>
             </div>
+
         </section>
     )
 }

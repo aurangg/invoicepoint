@@ -10,9 +10,10 @@ import SmallbusinessMain from './Components/Business/SmallbusinessMain';
 import Toolbar from './Components/Toolbar/Toolbar'
 import SideDrawer from './Components/SideDrawer/SideDrawer'
 import Backdrop from './Components/BackDrop/Backdrop';
+import FAQMain from './Components/FAQ/FAQMain';
+import PriceMain from './Components/Pricing/PriceMain';
+import TermsMain from './Components/Terms/TermsMain';
 import PrivacyMain from './Components/PrivacyPolicy/PrivacyMain';
-import FAQ from './Components/FAQ/FAQ';
-import Terms from './Components/Terms/Terms';
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -34,12 +35,13 @@ const App = () => {
                 {backdrop}
                 <Switch>
                     <Route path="/" exact component={HomeMain}/>
-                    <Route path="/freelancers" component={FreelancersMain}/>
-                    <Route path="/organization" component={OrganizationMain}/>
-                    <Route path="/business" component={SmallbusinessMain} />
-                    <Route path="/privacypolicy" component={PrivacyMain} />
-                    <Route path="/faqs" component={FAQ} />
-                    <Route path="/termsofservice" component={Terms} />
+                    <Route path="/freelancers" exact component={FreelancersMain}/>
+                    <Route path="/organization" exact component={OrganizationMain}/>
+                    <Route path="/small-business" exact component={SmallbusinessMain} />
+                    <Route path="/privacy-policy" exact component={PrivacyMain} />
+                    <Route path="/faqs" exact component={FAQMain}  />
+                    <Route path="/terms-of-service" exact component={TermsMain} />
+                    <Route path="/pricing" exact component={PriceMain} />        
                 </Switch>
             </Router> 
     )   

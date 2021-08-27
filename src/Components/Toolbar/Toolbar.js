@@ -26,13 +26,18 @@ const toolbar = props => (
                         </Link>
                     </li>
                     <li>
-                        <Link to="/business">
+                        <Link to="/small-business">
                             Small Business
                         </Link>
                     </li>
                     <li>
                         <Link to="/organization">
                             Organization
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/pricing">
+                            Pricing
                         </Link>
                     </li>
                 </ul>

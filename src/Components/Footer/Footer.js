@@ -24,7 +24,7 @@ function Footer(){
                                     </Link>
                                 </li>
                                 <li className="footer-li">
-                                    <Link to="/business">
+                                    <Link to="/small-business">
                                         Small Business
                                     </Link>
                                 </li>
@@ -44,12 +44,12 @@ function Footer(){
                                     </Link>
                                 </li>
                                 <li className="footer-li">
-                                    <Link to="/privacypolicy">
+                                    <Link to="/privacy-policy">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li className="footer-li">
-                                    <Link to="/termsofservice">
+                                    <Link to="/terms-of-service">
                                         Terms And Conditions
                                     </Link>
                                 </li>
