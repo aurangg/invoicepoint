@@ -502,6 +502,38 @@ label{
   flex-direction: column;
 }
 
+.testimonial-slider .slick-arrow.slick-prev,
+.testimonial-slider .slick-arrow.slick-next {
+  /* background-color: black; */
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+  color: #0d1117;
+}
+/* .slick-prev::before,
+.slick-next::before {
+  display: none;
+} */
+
+/* .slick-arrow.slick-next {
+  right: -70px;
+}
+.slick-arrow.slick-prev {
+  left: -70px;
+} */
+.testimonial-slider .slick-dots li button:before {
+  font-size: 15px;
+}
+.testimonial-slider .slick-dots li {
+  top: 15px;
+}
+.img{
+  margin-bottom: ;
+}
 .home-banner{
     background-position: center;
     background-repeat: no-repeat;

@@ -7,10 +7,10 @@ function Footer(){
         <footer className="spt-90 end-footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-4">
                         <img src={`${process.env.PUBLIC_URL}/images/main-logo.png`} alt="menu-icon" />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-4">
                         <div className="flex-end">
                             <ul className="footer-ul">
                                 <li className="footer-li">
@@ -33,6 +33,12 @@ function Footer(){
                                         Organizations
                                     </Link>
                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-lg-4">
+                        <div className="flex-end">
+                            <ul className="footer-ul">
                                 <li className="footer-li">
                                     <Link to="/faqs">
                                         FAQs
