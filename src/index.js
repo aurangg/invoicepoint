@@ -14,6 +14,8 @@ import FAQMain from './Components/FAQ/FAQMain';
 import PriceMain from './Components/Pricing/PriceMain';
 import TermsMain from './Components/Terms/TermsMain';
 import PrivacyMain from './Components/PrivacyPolicy/PrivacyMain';
+import Loader from './loader/Loader';
+import PageNotFound from './Components/Common/PageNotFound';
 
 const App = () => {
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
@@ -35,13 +37,15 @@ const App = () => {
                 {backdrop}
                 <Switch>
                     <Route path="/" exact component={HomeMain}/>
+                    <Route path="/loader" exact component={Loader} />
                     <Route path="/freelancers" exact component={FreelancersMain}/>
                     <Route path="/organization" exact component={OrganizationMain}/>
                     <Route path="/small-business" exact component={SmallbusinessMain} />
                     <Route path="/privacy-policy" exact component={PrivacyMain} />
                     <Route path="/faqs" exact component={FAQMain}  />
                     <Route path="/terms-of-service" exact component={TermsMain} />
-                    <Route path="/pricing" exact component={PriceMain} />        
+                    <Route path="/pricing" exact component={PriceMain} />  
+                    <Route  component={PageNotFound} />      
                 </Switch>
             </Router> 
     )   

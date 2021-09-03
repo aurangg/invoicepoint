@@ -56,7 +56,9 @@ const Card =()=>{
                 <div className="mt-30">
                  <img src="/images/Ellipse 4.png  " className="img"></img>
                 </div>
-                 <p className="test-para mt-30">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata"</p>
+                 <p className="test-para mt-30">
+                    "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata  "
+                 </p>
             </div>  
         </div>
     )

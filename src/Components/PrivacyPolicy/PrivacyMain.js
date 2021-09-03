@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Question1 from './Questions/q1';
 import Question2 from './Questions/q2';
 import Question3 from './Questions/q3';
@@ -19,9 +19,22 @@ import Question22 from './Questions/q22';
 import Contact from './Questions/contact';
 import { Fragment } from 'react';
 import Footer from '../Footer/Footer';
+import Loader from '../../loader/Loader';
 
 function PrivacyMain(){
     console.log("inside")
+    useEffect(() => {
+        document.title = "Privacy Policy | InvoicePoint"
+   }, []);
+   const[loader, SetLoader] = useState(false)
+    useEffect(() =>
+    setTimeout(() =>{
+        SetLoader(true)
+    },1500)[loader]  
+    )
+    if (!loader) {
+        return <Loader/>;
+    }
     return(
         <Fragment>
             <section className="sp-90">

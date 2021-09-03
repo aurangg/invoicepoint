@@ -29,7 +29,7 @@ function Footer(){
                                     </Link>
                                 </li>
                                 <li className="footer-li">
-                                    <Link to="/organizations">
+                                    <Link to="/organization">
                                         Organizations
                                     </Link>
                                 </li>
