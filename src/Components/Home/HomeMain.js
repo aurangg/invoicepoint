@@ -28,7 +28,7 @@ function HomeMain(){
             <TryInvoice />
             <Benefits />
             <Testimonial />
-            <Plans />
+            {/* <Plans /> */}
             <Trial />
             <Footer />
         </Fragment>

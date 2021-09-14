@@ -725,6 +725,30 @@ label{
   }
 }
 
+@media (max-width: 1000px) {
+  .banner-freelancers{
+    background-image: none;
+    background-size: auto;
+    height: auto;
+    padding: 0%;
+  }
+  .mobile-only{
+    display:flex;
+  }
+  .s-btn{
+    padding: 10px 10px;
+    width:200px;
+    border-radius: 5px;
+  }
+  .s-btn .get-it-now{
+    font-size:9px;
+  }
+  .banner-business{
+    background-image: url('./business-bg-m.png');
+  }
+  
+}
+
 
 @media(max-width:420px){
   .mb-50{
