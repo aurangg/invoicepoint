@@ -726,7 +726,7 @@ label{
 }
 
 @media (max-width: 1000px) {
-  .banner-freelancers{
+  /* .banner-freelancers{
     background-image: none;
     background-size: auto;
     height: auto;
@@ -734,7 +734,7 @@ label{
   }
   .mobile-only{
     display:flex;
-  }
+  } */
   .s-btn{
     padding: 10px 10px;
     width:200px;
@@ -743,16 +743,61 @@ label{
   .s-btn .get-it-now{
     font-size:9px;
   }
-  .banner-business{
+  /* .banner-business{
     background-image: url('./business-bg-m.png');
-  }  
+  }   */
 }
 
-@media (max-width:980px) {
+@media (min-width:768px) and (max-width:834px){
+  .h-1{
+    font-size:30px;
+  }
+  .tab-height{
+    height:auto !important;
+  }
+  .tab-width{
+    width:65% !important;
+  }
+  .tab-end{
+    display:flex;
+    justify-content: center;
+  }
+  .feature-img{
+    width:70%;
+    margin:20px 0px;
+  }
+  .h_1, .fs-50{
+    font-size:35px !important;
+  }
+  .tab-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ticks{
+    margin-bottom:20px;
+  }
+  .home-banner, .banner-freelancers, .banner-business{
+    background-position: top;
+  }
+  .tryInvoice{
+    background-image:url('./try-invoice-tab-bg.png');
+    background-size: cover;
+  }
+  .tab-mb-30{
+    margin-bottom:30px;
+  }
+  .banner-organization{
+    background-image: none;
+  }
   .classic-img{
-    display: none;
+    width:70%;
+  }
+  .tab-text-right{
+    text-align: right;
   }
 }
+
 
 
 @media(max-width:420px){

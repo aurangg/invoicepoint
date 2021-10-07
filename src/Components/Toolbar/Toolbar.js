@@ -40,6 +40,11 @@ const toolbar = props => (
                             Pricing
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/faqs">
+                            FAQs
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
